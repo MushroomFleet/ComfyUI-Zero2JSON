@@ -175,3 +175,23 @@ MIT License
 
 - Based on DJZ_ZeroPrompt methodology
 - Designed for integration with ComfyUI-FLUX2-JSON
+
+## 📚 Citation
+
+### Academic Citation
+
+If you use this codebase in your research or project, please cite:
+
+```bibtex
+@software{comfyui_zero2json,
+  title = {ComfyUI-Zero2JSON: ZeroPrompt Integration for FLUX2-JSON},
+  author = {Drift Johnson},
+  year = {2025},
+  url = {https://github.com/MushroomFleet/ComfyUI-Zero2JSON},
+  version = {1.0.0}
+}
+```
+
+### Donate:
+
+[![Ko-Fi](https://cdn.ko-fi.com/cdn/kofi3.png?v=3)](https://ko-fi.com/driftjohnson)
