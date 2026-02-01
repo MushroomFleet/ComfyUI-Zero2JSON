@@ -1,0 +1,30 @@
+{
+  "name": "Camera Distance Default",
+  "description": "Camera distance and shot framing descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{shot_type}, {framing}",
+    "{framing} {shot_type}",
+    "{shot_type} with {detail}",
+    "{detail}, {shot_type}"
+  ],
+
+  "pools": {
+    "shot_type": [
+      "extreme close-up", "close-up shot", "medium close-up",
+      "medium shot", "medium full shot", "full shot",
+      "wide shot", "extreme wide shot", "establishing shot"
+    ],
+    "framing": [
+      "tight framing", "loose framing", "balanced framing",
+      "off-center framing", "headroom heavy", "lead room emphasized",
+      "cropped composition", "full frame utilization", "negative space heavy"
+    ],
+    "detail": [
+      "capturing fine details", "showing full context", "emphasizing scale",
+      "isolating the subject", "relating to environment", "creating intimacy",
+      "establishing geography", "revealing relationships", "focusing on expression"
+    ]
+  }
+}

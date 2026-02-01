@@ -1,0 +1,55 @@
+{
+  "name": "Subject Description Default",
+  "description": "Comprehensive subject descriptions for photography and illustration",
+  "version": "1.0.0",
+
+  "templates": [
+    "{subject_type} with {detail_1}, {detail_2}, {texture}",
+    "{adjective} {subject_type}, {detail_1} and {detail_2}, {texture}",
+    "{subject_type} featuring {detail_1}, {texture}, {quality}",
+    "{adjective} {subject_type} with {texture} and {detail_2}",
+    "{subject_type}, {detail_1}, {detail_2}, with {texture} {quality}"
+  ],
+
+  "pools": {
+    "subject_type": [
+      "a young woman", "a middle-aged man", "an elderly person",
+      "a child", "a teenager", "a professional",
+      "a ceramic vase", "a wooden sculpture", "a glass bottle",
+      "a leather bag", "a metal watch", "a vintage camera",
+      "a sports car", "a motorcycle", "a bicycle",
+      "a majestic dragon", "a phoenix", "a mystical creature",
+      "a robot", "an android", "a cyborg",
+      "a medieval knight", "a samurai warrior", "a viking",
+      "a detective", "an astronaut", "a scientist"
+    ],
+    "adjective": [
+      "elegant", "rugged", "minimalist", "ornate", "weathered",
+      "pristine", "vintage", "modern", "classic", "futuristic",
+      "delicate", "robust", "sleek", "textured", "polished"
+    ],
+    "detail_1": [
+      "intricate patterns", "fine craftsmanship", "subtle imperfections",
+      "visible wear marks", "polished surfaces", "matte finish",
+      "hand-painted details", "laser-etched markings", "natural grain",
+      "geometric shapes", "organic curves", "sharp edges"
+    ],
+    "detail_2": [
+      "reflective highlights", "soft shadows", "color gradients",
+      "metallic accents", "wooden inlays", "fabric textures",
+      "leather stitching", "glass elements", "stone components",
+      "chrome details", "brass fixtures", "copper patina"
+    ],
+    "texture": [
+      "smooth matte surface", "rough natural texture", "glossy finish",
+      "brushed metal appearance", "soft fabric feel", "worn leather look",
+      "polished stone surface", "frosted glass effect", "velvet softness",
+      "gritty sandpaper texture", "silk-like smoothness", "coarse weave"
+    ],
+    "quality": [
+      "exceptional detail", "museum quality", "artisan crafted",
+      "mass-produced precision", "handmade character", "industrial finish",
+      "boutique quality", "professional grade", "studio quality"
+    ]
+  }
+}

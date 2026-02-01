@@ -1,0 +1,39 @@
+{
+  "name": "Style Default",
+  "description": "Artistic and photographic style descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{medium} style, {technique}, {quality}",
+    "{aesthetic} {medium}, {technique}",
+    "{technique} with {aesthetic} approach, {quality}",
+    "{quality} {medium}, {aesthetic}, {technique}"
+  ],
+
+  "pools": {
+    "medium": [
+      "photography", "digital photography", "film photography",
+      "oil painting", "watercolor", "acrylic painting",
+      "digital illustration", "concept art", "3D rendering",
+      "pencil sketch", "charcoal drawing", "ink illustration",
+      "mixed media", "collage art", "vector graphics"
+    ],
+    "technique": [
+      "high contrast processing", "soft diffused look", "sharp detail emphasis",
+      "selective focus technique", "long exposure blur", "HDR processing",
+      "cross-processing effect", "desaturated palette", "vibrant saturation",
+      "film grain texture", "lens flare effects", "motion blur"
+    ],
+    "aesthetic": [
+      "minimalist", "maximalist", "vintage", "modern",
+      "retro", "futuristic", "classical", "contemporary",
+      "romantic", "gritty", "ethereal", "raw",
+      "polished", "organic", "geometric", "surreal"
+    ],
+    "quality": [
+      "professional grade", "commercial quality", "editorial standard",
+      "fine art caliber", "gallery worthy", "museum quality",
+      "publication ready", "award-winning caliber", "masterpiece level"
+    ]
+  }
+}

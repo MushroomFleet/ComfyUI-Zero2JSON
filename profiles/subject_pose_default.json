@@ -1,0 +1,39 @@
+{
+  "name": "Subject Pose Default",
+  "description": "Static pose descriptions for subject positioning",
+  "version": "1.0.0",
+
+  "templates": [
+    "{body_position}, {arm_position}, {expression}",
+    "{body_position} with {arm_position}, {head_position}",
+    "{expression}, {body_position}, {arm_position}",
+    "{head_position}, {body_position}, {expression}"
+  ],
+
+  "pools": {
+    "body_position": [
+      "standing upright", "standing relaxed", "standing at attention",
+      "sitting comfortably", "sitting formally", "sitting casually",
+      "leaning against wall", "leaning forward", "leaning back",
+      "crouching low", "kneeling down", "lying prone"
+    ],
+    "arm_position": [
+      "arms at sides", "arms crossed", "arms behind back",
+      "one hand on hip", "hands in pockets", "arms outstretched",
+      "hands clasped", "arms raised", "one arm extended",
+      "hands folded", "arms akimbo", "hands together"
+    ],
+    "head_position": [
+      "head tilted slightly", "chin raised", "chin lowered",
+      "looking straight ahead", "profile view", "three-quarter view",
+      "head turned left", "head turned right", "looking down",
+      "looking up", "eyes closed", "gazing into distance"
+    ],
+    "expression": [
+      "neutral expression", "subtle smile", "serious demeanor",
+      "contemplative look", "confident stance", "relaxed appearance",
+      "focused intensity", "gentle warmth", "mysterious air",
+      "commanding presence", "approachable manner", "stoic composure"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Lighting Default",
+  "description": "Comprehensive lighting setup descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{source} providing {quality}, {direction}, {color_temp}",
+    "{quality} {source}, {direction}, creating {mood}",
+    "{direction} {source} with {quality}, {color_temp}",
+    "{mood} atmosphere from {source}, {quality}, {direction}"
+  ],
+
+  "pools": {
+    "source": [
+      "natural sunlight", "overcast skylight", "window light",
+      "studio strobe", "continuous LED", "softbox lighting",
+      "ring light", "beauty dish", "umbrella diffusion",
+      "practical lamps", "neon signs", "candlelight",
+      "firelight", "moonlight", "mixed ambient sources"
+    ],
+    "quality": [
+      "soft diffused light", "hard directional light", "dappled light",
+      "even flat lighting", "dramatic contrast", "gentle gradients",
+      "specular highlights", "broad soft shadows", "deep dark shadows",
+      "rim lighting effect", "fill light balance", "key light dominance"
+    ],
+    "direction": [
+      "from above", "from below", "from the side",
+      "three-quarter front", "backlit silhouette", "front lit flat",
+      "split lighting", "Rembrandt lighting", "butterfly lighting",
+      "loop lighting", "broad lighting", "short lighting"
+    ],
+    "color_temp": [
+      "warm golden tones", "cool blue cast", "neutral daylight",
+      "tungsten orange warmth", "fluorescent green tint", "mixed color temperatures",
+      "sunset warm palette", "shade blue coolness", "candlelight amber"
+    ],
+    "mood": [
+      "mysterious", "cheerful", "dramatic",
+      "romantic", "clinical", "cozy",
+      "ethereal", "intense", "peaceful"
+    ]
+  }
+}

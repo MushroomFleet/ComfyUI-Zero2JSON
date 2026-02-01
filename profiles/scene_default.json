@@ -1,0 +1,41 @@
+{
+  "name": "Scene Default",
+  "description": "Comprehensive scene and environment descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{location}, {time_context}, {weather_atmosphere}",
+    "{location} during {time_context}, {ambient_detail}",
+    "{weather_atmosphere} {location}, {ambient_detail}",
+    "{location} with {ambient_detail}, {time_context}"
+  ],
+
+  "pools": {
+    "location": [
+      "professional photography studio", "white seamless backdrop studio",
+      "modern minimalist interior", "cozy living room", "industrial loft",
+      "busy city street", "quiet suburban neighborhood", "urban rooftop",
+      "dense forest clearing", "sandy beach shoreline", "mountain peak",
+      "ancient temple ruins", "medieval castle courtyard", "futuristic cityscape",
+      "underwater coral reef", "alien planet surface", "space station interior"
+    ],
+    "time_context": [
+      "morning golden hour", "bright midday sun", "afternoon warmth",
+      "golden hour sunset", "blue hour twilight", "deep night darkness",
+      "overcast daylight", "stormy afternoon", "misty dawn",
+      "starlit night", "moonlit evening", "artificial lighting"
+    ],
+    "weather_atmosphere": [
+      "clear skies", "partly cloudy", "overcast gray",
+      "light rain falling", "heavy downpour", "gentle snow",
+      "thick fog", "morning mist", "dust in the air",
+      "humid tropical", "dry desert heat", "crisp autumn air"
+    ],
+    "ambient_detail": [
+      "dappled light through leaves", "reflections on wet surfaces",
+      "dust particles in light beams", "steam rising from ground",
+      "wind-blown debris", "falling leaves", "fireflies glowing",
+      "neon signs reflecting", "car headlights streaking", "candlelight flickering"
+    ]
+  }
+}

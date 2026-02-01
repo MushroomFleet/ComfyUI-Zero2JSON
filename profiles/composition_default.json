@@ -1,0 +1,33 @@
+{
+  "name": "Composition Default",
+  "description": "Visual composition and arrangement descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{rule} with {element}, creating {effect}",
+    "{element} following {rule}, {effect}",
+    "{effect} achieved through {rule} and {element}",
+    "{rule}, {element}, resulting in {effect}"
+  ],
+
+  "pools": {
+    "rule": [
+      "rule of thirds placement", "golden ratio composition", "centered symmetry",
+      "diagonal composition", "triangular arrangement", "S-curve flow",
+      "L-shaped framing", "frame within frame", "leading lines",
+      "radial composition", "grid alignment", "asymmetrical balance"
+    ],
+    "element": [
+      "strong foreground interest", "layered depth planes", "negative space emphasis",
+      "pattern repetition", "contrast of scale", "color blocking",
+      "texture juxtaposition", "shape relationships", "tonal gradients",
+      "visual weight distribution", "directional flow", "focal point hierarchy"
+    ],
+    "effect": [
+      "visual harmony", "dynamic tension", "stable balance",
+      "dramatic impact", "subtle elegance", "bold statement",
+      "quiet contemplation", "energetic movement", "peaceful stillness",
+      "narrative depth", "emotional resonance", "aesthetic pleasure"
+    ]
+  }
+}

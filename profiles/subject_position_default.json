@@ -1,0 +1,34 @@
+{
+  "name": "Subject Position Default",
+  "description": "Spatial positioning descriptions for subject placement",
+  "version": "1.0.0",
+
+  "templates": [
+    "{horizontal} of frame, {vertical}, {depth}",
+    "positioned {horizontal}, {vertical} section, in the {depth}",
+    "{depth}, {horizontal}, {vertical}",
+    "{vertical}, {horizontal}, occupying the {depth}"
+  ],
+
+  "pools": {
+    "horizontal": [
+      "far left", "left side", "left of center",
+      "center", "dead center", "centered",
+      "right of center", "right side", "far right",
+      "off-center left", "off-center right", "slightly left",
+      "slightly right", "extreme left edge", "extreme right edge"
+    ],
+    "vertical": [
+      "top", "upper third", "upper section",
+      "middle", "center vertical", "eye level",
+      "lower third", "bottom section", "bottom",
+      "above center", "below center", "ground level"
+    ],
+    "depth": [
+      "foreground", "immediate foreground", "front plane",
+      "midground", "middle distance", "central plane",
+      "background", "distant background", "far plane",
+      "between foreground and midground", "between midground and background"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Camera Angle Default",
+  "description": "Camera angle and perspective descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{vertical_angle} with {horizontal_angle}, {movement}",
+    "{horizontal_angle} {vertical_angle}, {perspective}",
+    "{movement} {vertical_angle}, {perspective}",
+    "{perspective} from {vertical_angle}, {horizontal_angle}"
+  ],
+
+  "pools": {
+    "vertical_angle": [
+      "eye level shot", "slightly elevated angle", "high angle looking down",
+      "low angle looking up", "bird's eye view", "worm's eye view",
+      "overhead shot", "ground level perspective", "aerial view"
+    ],
+    "horizontal_angle": [
+      "straight on front view", "three-quarter angle", "profile side view",
+      "rear three-quarter", "over the shoulder", "point of view shot"
+    ],
+    "movement": [
+      "static locked position", "subtle drift", "smooth tracking",
+      "handheld documentary feel", "crane movement", "dolly push",
+      "orbit around subject", "tilt reveal", "pan across scene"
+    ],
+    "perspective": [
+      "natural perspective", "forced perspective", "extreme foreshortening",
+      "telephoto compression", "wide angle distortion", "fisheye curvature",
+      "tilt-shift miniature effect", "anamorphic stretch", "standard rectilinear"
+    ]
+  }
+}

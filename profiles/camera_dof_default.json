@@ -1,0 +1,35 @@
+{
+  "name": "Camera Depth of Field Default",
+  "description": "Depth of field and focus plane descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{dof_type} with {bokeh}, {transition}",
+    "{bokeh} {dof_type}, {plane_description}",
+    "{plane_description}, {dof_type}, {bokeh}",
+    "{transition} {dof_type} creating {bokeh}"
+  ],
+
+  "pools": {
+    "dof_type": [
+      "extremely shallow depth of field", "shallow depth of field",
+      "moderate depth of field", "deep depth of field",
+      "infinite depth of field", "selective focus",
+      "split focus", "rack focus transition", "zone focus"
+    ],
+    "bokeh": [
+      "creamy smooth bokeh", "busy nervous bokeh", "circular bokeh shapes",
+      "hexagonal bokeh pattern", "swirly bokeh effect", "soap bubble bokeh",
+      "cat's eye bokeh", "harsh bokeh edges", "soft feathered bokeh"
+    ],
+    "transition": [
+      "gradual falloff", "abrupt focus edge", "smooth gradient",
+      "stepped focus planes", "continuous sharpness change", "dramatic separation"
+    ],
+    "plane_description": [
+      "single plane in focus", "multiple planes sharp", "foreground soft background sharp",
+      "subject isolated from background", "everything acceptably sharp",
+      "thin slice of focus", "deep zone of sharpness", "selective critical focus"
+    ]
+  }
+}

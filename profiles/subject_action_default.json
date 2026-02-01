@@ -1,0 +1,41 @@
+{
+  "name": "Subject Action Default",
+  "description": "Dynamic action descriptions for subjects in motion",
+  "version": "1.0.0",
+
+  "templates": [
+    "{verb} {direction}, {modifier}",
+    "{modifier} {verb} {direction}",
+    "{verb} with {quality}, {direction}",
+    "{direction}, {verb} {modifier}"
+  ],
+
+  "pools": {
+    "verb": [
+      "walking", "running", "sprinting", "jogging",
+      "standing", "sitting", "crouching", "kneeling",
+      "jumping", "leaping", "falling", "diving",
+      "reaching", "grasping", "pointing", "gesturing",
+      "turning", "spinning", "twisting", "pivoting",
+      "climbing", "descending", "ascending", "floating"
+    ],
+    "direction": [
+      "toward the camera", "away from the camera",
+      "to the left", "to the right",
+      "upward", "downward", "diagonally",
+      "across the frame", "through the scene",
+      "into the light", "into shadow"
+    ],
+    "modifier": [
+      "with purpose", "hesitantly", "confidently",
+      "gracefully", "awkwardly", "smoothly",
+      "rapidly", "slowly", "deliberately",
+      "casually", "intensely", "playfully"
+    ],
+    "quality": [
+      "fluid motion", "sharp movement", "gentle pace",
+      "explosive energy", "controlled power", "relaxed ease",
+      "urgent speed", "measured steps", "natural rhythm"
+    ]
+  }
+}

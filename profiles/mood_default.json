@@ -1,0 +1,41 @@
+{
+  "name": "Mood Default",
+  "description": "Emotional atmosphere and mood descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{emotion} atmosphere, {intensity}, {descriptor}",
+    "{intensity} {emotion} mood with {descriptor}",
+    "{descriptor}, creating {emotion} {intensity} feeling",
+    "{emotion} and {secondary_emotion}, {descriptor}"
+  ],
+
+  "pools": {
+    "emotion": [
+      "serene", "peaceful", "calm", "tranquil",
+      "joyful", "cheerful", "playful", "whimsical",
+      "dramatic", "intense", "powerful", "bold",
+      "melancholic", "somber", "wistful", "nostalgic",
+      "mysterious", "enigmatic", "ethereal", "dreamlike",
+      "tense", "suspenseful", "ominous", "foreboding"
+    ],
+    "secondary_emotion": [
+      "hopeful", "longing", "contemplative", "reflective",
+      "energetic", "dynamic", "restless", "anticipatory",
+      "intimate", "vulnerable", "raw", "authentic"
+    ],
+    "intensity": [
+      "subtly", "gently", "softly",
+      "moderately", "noticeably", "clearly",
+      "strongly", "intensely", "overwhelmingly",
+      "quietly", "loudly", "profoundly"
+    ],
+    "descriptor": [
+      "permeating every element", "underlying the composition",
+      "evident in the lighting", "reflected in the colors",
+      "expressed through texture", "conveyed by the subjects",
+      "enhanced by the setting", "amplified by contrast",
+      "suggested by negative space", "reinforced by symmetry"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Camera Focus Default",
+  "description": "Focus target and attention descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{focus_target}, {sharpness}, {attention}",
+    "{sharpness} on {focus_target}, {attention}",
+    "{attention} with {focus_target} {sharpness}",
+    "{focus_target} rendered {sharpness}, {attention}"
+  ],
+
+  "pools": {
+    "focus_target": [
+      "sharp focus on eyes", "focus on face", "focus on hands",
+      "focus on main subject", "focus on foreground element", "focus on background detail",
+      "focus on product", "focus on texture", "focus on reflection",
+      "focus on edge detail", "focus on center of interest", "focus on action point"
+    ],
+    "sharpness": [
+      "tack sharp", "critically sharp", "acceptably sharp",
+      "slightly soft", "intentionally soft", "razor sharp",
+      "pin sharp", "dreamy soft", "clinical sharpness"
+    ],
+    "attention": [
+      "drawing the eye immediately", "guiding viewer attention",
+      "creating focal hierarchy", "establishing visual priority",
+      "emphasizing the subject", "directing the gaze",
+      "anchoring the composition", "highlighting key elements"
+    ]
+  }
+}

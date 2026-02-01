@@ -1,0 +1,35 @@
+{
+  "name": "Background Default",
+  "description": "Background and backdrop descriptions",
+  "version": "1.0.0",
+
+  "templates": [
+    "{surface} with {detail}, {blur_quality}",
+    "{blur_quality} {surface}, {detail}",
+    "{surface} featuring {detail}, rendered {blur_quality}",
+    "{detail} on {surface}, {blur_quality}"
+  ],
+
+  "pools": {
+    "surface": [
+      "seamless white backdrop", "gray gradient background", "black void",
+      "textured wall", "brick surface", "concrete backdrop",
+      "wooden panels", "fabric drape", "paper backdrop",
+      "natural foliage", "urban architecture", "sky gradient",
+      "bokeh light pattern", "abstract shapes", "geometric pattern"
+    ],
+    "detail": [
+      "subtle texture variation", "visible grain pattern", "smooth gradient",
+      "shadow play", "light leaks", "color spots",
+      "dust particles", "lens artifacts", "reflection points",
+      "organic shapes", "architectural lines", "natural elements"
+    ],
+    "blur_quality": [
+      "crisp and sharp throughout", "slightly soft focus",
+      "moderately blurred", "heavily defocused",
+      "creamy bokeh effect", "busy bokeh pattern",
+      "gradual focus falloff", "abrupt focus transition",
+      "painterly soft blur", "cinematic shallow depth"
+    ]
+  }
+}
